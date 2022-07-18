@@ -1,11 +1,7 @@
 name: clock_analog
 description: Clock Analog is used to pick time of day (without dialog box).
   User can use this package to add widgets of analog clock picker on screen,
-  and can retrieve selected time with onChange event. This package has hour
-  and minute time selection with AM and PM selection. Based on AM and PM selection,
-  onChange event will return selected time in tweenty four hours format. Selection of
-  time is availbale in 12 hours format only and with AM - PM selection. User need to
-  provide initial time as it is required parameter.
+  and can retrieve selected time with onChange event.
 
 version: 0.0.2
 homepage: https://github.com/rikun5989/clock_analog
