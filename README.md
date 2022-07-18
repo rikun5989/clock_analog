@@ -1,6 +1,6 @@
 # Clock Analog
 
-Fancy container package lets you add a beautiful gradient container to your Flutter app.
+Clock analog allow you select time of day to your Flutter app.
 
 ## Installation
 
