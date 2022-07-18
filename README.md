@@ -1,6 +1,7 @@
 # Clock Analog
 
-Clock analog allow you select time of day to your Flutter app.
+Clock analog allow you select time of day(Time Picker) to your Flutter app without dialog box.
+One can add it as widgets on screen and select time.
 
 ## Installation
 
