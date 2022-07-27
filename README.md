@@ -8,7 +8,7 @@ One can add it as widgets on screen and select time.
 1. Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
 ```yaml
 dependencies:
-  clock_analog: ^0.0.2
+  clock_analog: ^0.0.3
 ```
 2. Import the package and use it in your Flutter App.
 ```dart
