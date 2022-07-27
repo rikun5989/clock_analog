@@ -12,3 +12,7 @@
 * Added sample example
 * Some fixes
 * Added details
+
+## 0.0.4
+
+* Updated description

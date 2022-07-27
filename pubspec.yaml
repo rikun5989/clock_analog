@@ -1,7 +1,7 @@
 name: clock_analog
 description: Use clock_analog widgets to pick time of day (without dialog box) from main screen.
 
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/rikun5989/clock_analog
 
 environment:
