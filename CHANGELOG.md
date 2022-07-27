@@ -6,3 +6,9 @@
 ## 0.0.2
 
 * ReadMe update
+
+## 0.0.3
+
+* Added sample example
+* Some fixes
+* Added details

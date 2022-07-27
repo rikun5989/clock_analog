@@ -29,36 +29,35 @@ class AppTextFormField extends StatelessWidget {
   final TextAlign textAlign;
   final TextStyle? textStyle;
 
-  const AppTextFormField(
-      {Key? key,
-      this.controller,
-      this.topHintText,
-      this.hintText,
-      this.validator,
-      this.obscureText = false,
-      this.autoValidate = false,
-      this.keyboardType = TextInputType.text,
-      this.textInputAction = TextInputAction.next,
-      this.textCapitalization = TextCapitalization.none,
-      this.maxLength,
-      this.minLines = 1,
-      this.maxLines = 1,
-      this.readOnly = false,
-      this.inputFormatters,
-      this.suffixIcon,
-      this.prefixIcon,
-      this.focusNode,
-      this.onFieldSubmitted,
-      this.onTap,
-      this.onValueChanges,
-      this.fillColor,
-      this.underlineColor,
-      this.counterDisplay = true,
-      this.textColor,
-      this.textAlign = TextAlign.start,
-      this.textStyle,
-      })
-      : super(key: key);
+  const AppTextFormField({
+    Key? key,
+    this.controller,
+    this.topHintText,
+    this.hintText,
+    this.validator,
+    this.obscureText = false,
+    this.autoValidate = false,
+    this.keyboardType = TextInputType.text,
+    this.textInputAction = TextInputAction.next,
+    this.textCapitalization = TextCapitalization.none,
+    this.maxLength,
+    this.minLines = 1,
+    this.maxLines = 1,
+    this.readOnly = false,
+    this.inputFormatters,
+    this.suffixIcon,
+    this.prefixIcon,
+    this.focusNode,
+    this.onFieldSubmitted,
+    this.onTap,
+    this.onValueChanges,
+    this.fillColor,
+    this.underlineColor,
+    this.counterDisplay = true,
+    this.textColor,
+    this.textAlign = TextAlign.start,
+    this.textStyle,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -67,12 +66,8 @@ class AppTextFormField extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         if (topHintText != null)
-          Text(
-            topHintText!,
-            style: Theme.of(context).textTheme.headline6
-          ),
-        if (topHintText != null)
-        const SizedBox(height: 5),
+          Text(topHintText!, style: Theme.of(context).textTheme.headline6),
+        if (topHintText != null) const SizedBox(height: 5),
         TextFormField(
           obscureText: obscureText,
           controller: controller,
